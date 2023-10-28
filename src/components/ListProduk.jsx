@@ -16,7 +16,7 @@ const ListProduk = () => {
       {produkData.map((produk) => (
         <div className="flex flex-col" key={produk.id}>
           <img
-            src="../src/assets/produk_baju_uniqlo.jpg"
+            src="https://source.unsplash.com/featured/100x100"
             alt="..."
             width={100}
             height={100}
